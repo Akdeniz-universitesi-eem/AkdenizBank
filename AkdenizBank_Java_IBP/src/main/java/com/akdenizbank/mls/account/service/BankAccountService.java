@@ -19,7 +19,7 @@ public class BankAccountService {
     public BankAccount create(BankAccount bankAccount) {
         return this.bankAccountRepository.save(bankAccount);
     }
-    
+
     public BankAccount update(BankAccount updatedBankAccount) {
         BankAccount bankAccountInDB = this.getById(updatedBankAccount.getId());
         if (bankAccountInDB == null) {
