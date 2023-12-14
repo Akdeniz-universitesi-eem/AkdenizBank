@@ -49,7 +49,7 @@ public class BankAccountController {
             throw new RuntimeException("No Such Bank Account");
         }
         BankAccount updateBankAccount = bankAccountService.update(bankAccountInDB);
-        return new GenericApiResponse(200, "Success", "88974467", updateBankAccount);
+        return new GenericApiResponse(200, "Success", "78764555", updateBankAccount);
     }
 
     @GetMapping
